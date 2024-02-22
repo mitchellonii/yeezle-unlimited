@@ -278,7 +278,7 @@ function resetGameState() {
 async function getRandomMysterySong() {
     newMysterySong()
     //console.log(mysteryNumber)
-    await fetch('/datasheetNoSkit.json')
+    await fetch('./datasheetNoSkit.json')
         .then(response => response.json())
         .then(data => {
 
@@ -305,7 +305,7 @@ async function getRandomMysterySong() {
 
 }
 async function doubleTrouble() {
-    await fetch('/datasheetNoSkit.json')
+    await fetch('./datasheetNoSkit.json')
         .then(response => response.json())
         .then(data => {
             mysterySong = data.songs[mysteryDouble]
@@ -363,7 +363,7 @@ async function compareSong(choice) {
         // 5 second timeout:
         const timeoutId = setTimeout(() => controller.abort(), 400)
 
-        await fetch('/datasheetNoSkit.json', { signal: controller.signal })
+        await fetch('./datasheetNoSkit.json', { signal: controller.signal })
             .then(response => response.json())
             .then(data => {
 
