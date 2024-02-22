@@ -198,6 +198,24 @@ const songTitles = [
     "Junya pt 2",
     "Jesus Lord pt 2",
 
+        "STARS",
+        "KEYS TO MY LIFE",
+        "PAID",
+        "TALKING",
+        "BACK TO ME",
+        "HOODRAT",
+        "DO IT",
+        "PAPERWORK",
+        "BURN",
+        "FUK SUMN",
+        "VULTURES",
+        "CARNIVAL",
+        "BEG FORGIVENESS",
+        "GOOD (DON'T DIE)",
+        "PROBLEMATIC",
+        "KING",
+        
+
 ]
 
 
